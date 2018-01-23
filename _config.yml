@@ -1,0 +1,234 @@
+exclude: ['README.md']
+timezone: US/Eastern
+papers:
+  - 
+    layout: paper
+    paper-type: thesis 
+    year: 2015
+    title: "Large-scale reordering models for statistical machine translation"
+    institution: University of Southampton
+    doc-url: papers/thesis.pdf
+    presentation: presentations/viva.pdf
+    img: thesis
+    bibtex: >
+      @phdthesis{alrajeh:thesis,
+        author  = "Abdullah Alrajeh",
+        title   = "Large-scale reordering models for statistical machine translation",
+        school  = "The University of Southampton",
+        year    = "2015",
+      }
+    abstract: >
+      <p>In state-of-the-art phrase-based statistical machine translation systems (SMT), 
+      modelling phrase reorderings is an important need to enhance naturalness of the translated 
+      outputs, particularly when the grammatical structures of the language pairs differ significantly. 
+      The challenge in developing machine learning methods for machine translation can be summarised 
+      in two points. First is the ability to characterise language features such as morphology, syntax 
+      and semantics. Second is adapting complex learning algorithms to process large corpora.</p>
+      <p>Posing phrase movements as a classification problem, we exploit recent developments in solving 
+      large-scale SVM, Multiclass SVM and Multinomial Logistic Regression. Using dual coordinate descent 
+      methods for learning, we provide a mechanism to shrink the amount of training data required for each 
+      iteration. Hence, we produce significant saving in time and memory while preserving the accuracy 
+      of the models. These efficient classifiers allow us to build large-scale discriminative reordering models. 
+      We also explore a generative learning approach namely naive Bayes. Our Bayesian model is shown to be 
+      superior to the widely-used lexicalised reordering model. It is fast to train and the storage requirement
+      is many times smaller than the lexicalised model. Although discriminative models might achieve higher 
+      accuracy than naive Bayes, the absence of iterative learning is a critical advantage for very large corpora.</p>
+      <p>Our reordering models are fully integrated with the Moses machine translation system, widely used 
+      in the community. Evaluated in large-scale translation tasks, our models have proved successful for
+      two very different language pairs: Arabic-English and German-English.</p>
+  -
+    layout: paper
+    paper-type: article
+    year: 2015
+    authors: Abdullah Alrajeh, Mahesan Niranjan
+    title: Scalable reordering models for SMT based on multiclass SVM
+    doc-url: papers/pbml_2015.pdf
+    journal: The Prague Bulletin of Mathematical Linguistics
+    journal-url: https://ufal.mff.cuni.cz/pbml
+    volume: 103
+    venue: journal
+    img: pbml_2015
+    abstract: >
+      In state-of-the-art phrase-based statistical machine translation systems, modelling phrase
+      reorderings is an important need to enhance naturalness of the translated outputs, particularly
+      when the grammatical structures of the language pairs differ significantly. Posing phrase movements 
+      as a classification problem, we exploit recent developments in solving large-scale multiclass 
+      support vector machines. Using dual coordinate descent methods for learning, we provide a mechanism
+      to shrink the amount of training data required for each iteration. Hence, we produce significant
+      computational saving while preserving the accuracy of the models. Our approach is a couple of times
+      faster than maximum entropy approach and more memory-efficient (50% reduction). Experiments were 
+      carried out on an Arabic-English corpus with more than a quarter of a billion words. We achieve 
+      BLEU score improvements on top of a strong baseline system with sparse reordering features.
+    bibtex: >
+      @article{pbml-103-alrajeh-niranjan,
+        author  = "Abdullah Alrajeh and Mahesan Niranjan",
+        title   = "Scalable Reordering Models for {SMT} based on Multiclass {SVM}",
+        journal = "The Prague Bulletin of Mathematical Linguistics",
+        volume  = "103",
+        pages   = "65--84",
+        url     = "http://ufal.mff.cuni.cz/pbml/103/art-alrajeh-niranjan.pdf",
+        year    = "2015"
+      }
+  -
+    layout: paper
+    paper-type: inproceedings
+    year: 2015
+    authors: Abdullah Alrajeh, Akiko Takeda, Mahesan Niranjan
+    title: Memory-efficient large-scale linear support vector machine
+    doc-url: papers/icmv14.pdf
+    presentation: presentations/icmv14-slides.pdf
+    booktitle: Proceedings of ICMV
+    booktitle-url: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9445.toc
+    venue: conference
+    img: icmv14
+    abstract: >
+      Stochastic gradient descent has been advanced as a computationally efficient method for large-scale problems. 
+      In classification problems, many proposed linear support vector machines are very effective. However, they 
+      assume that the data is already in memory which might be not always the case. Recent work suggests a classical 
+      method that divides such a problem into smaller blocks then solves the sub-problems iteratively. We show that
+      a simple modification of shrinking the dataset early will produce significant saving in computation and memory.
+      We further find that on problems larger than previously considered, our approach is able to reach solutions
+      on top-end desktop machines while competing methods cannot.
+    bibtex: >
+      @InProceedings{alrajeh:2014:ICMV,
+        author    = {Alrajeh, Abdullah and Takeda, Akiko and Niranjan, Mahesan},
+        title     = {Memory-efficient Large-scale Linear Support Vector Machine},
+        booktitle = {Proceedings of SPIE: Seventh International Conference on Machine Vision (ICMV 2014)},
+        volume    = {9445},
+        pages     = {944527-944527-6},
+        publisher = {SPIE},
+        year      = {2015},
+        month     = {February},
+        address   = {Milan, Italy},
+        doi       = {10.1117/12.2180925},
+        url 	    = { http://dx.doi.org/10.1117/12.2180925},
+      }
+  -
+    layout: paper
+    paper-type: inproceedings
+    year: 2014
+    authors: Abdullah Alrajeh, Mahesan Niranjan
+    title: Large-scale reordering model for statistical machine translation using dual multinomial logistic regression
+    doc-url: papers/emnlp14.pdf
+    presentation: presentations/emnlp14-poster.pdf
+    booktitle: Proceedings of EMNLP
+    booktitle-url: http://emnlp2014.org
+    venue: conference
+    img: emnlp14
+    abstract: >
+      Phrase reordering is a challenge for statistical machine translation systems. Posing phrase 
+      movements as a prediction problem using contextual features modeled by maximum entropy-
+      based classifier is superior to the commonly used lexicalized reordering model. However, 
+      Training this discriminative model using large-scale parallel corpus might be 
+      computationally expensive. In this paper, we explore recent advancements in solving large-
+      scale classification problems. Using the dual problem to multinomial logistic regression, we 
+      managed to shrink the training data while iterating and produce significant saving in 
+      computation and memory while preserving the accuracy.
+    bibtex: >
+      @InProceedings{D14-1183,
+        author    = "Alrajeh, Abdullah and Niranjan, Mahesan",
+        title     = "Large-scale Reordering Model for Statistical Machine Translation using Dual Multinomial Logistic Regression",
+        booktitle = "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        month     = "October",
+        year      = "2014",
+        publisher = "Association for Computational Linguistics",
+        pages     = "1758--1763",
+        address   = "Doha, Qatar",
+        url       = "http://aclweb.org/anthology/D14-1183"
+      }
+  -
+    layout: paper
+    paper-type: inproceedings
+    year: 2014
+    authors: Abdullah Alrajeh, Mahesan Niranjan
+    title: Bayesian reordering model with feature selection
+    doc-url: papers/W14-3361.pdf
+    presentation: presentations/wmt14-slides.pdf
+    booktitle: Proceedings of WMT
+    booktitle-url: http://www.statmt.org/wmt14/
+    venue: workshop
+    img: W14-3361
+    abstract: >
+      In phrase-based statistical machine translation systems, variation in grammatical structures 
+      between source and target languages can cause large movements of phrases. Modeling 
+      such movements is crucial in achieving translations of long sentences that appear natural in 
+      the target language. We explore generative learning approach to phrase reordering in 
+      Arabic to English. Formulating the reordering problem as a classification problem and using 
+      naive Bayes with feature selection, we achieve an improvement in the BLEU score over a 
+      lexicalized reordering model. The proposed model is compact, fast and scalable to a large 
+      corpus.
+    bibtex: >
+      @InProceedings{alrajeh-niranjan:2014:W14-33,
+        author    = {Alrajeh, Abdullah  and  Niranjan, Mahesan},
+        title     = {Bayesian Reordering Model with Feature Selection},
+        booktitle = {Proceedings of the Ninth Workshop on Statistical Machine Translation},
+        month     = {June},
+        year      = {2014},
+        address   = {Baltimore, Maryland, USA},
+        publisher = {Association for Computational Linguistics},
+        pages     = {477--485},
+        url       = {http://www.aclweb.org/anthology/W/W14/W14-3361}
+      }
+  -
+    layout: paper
+    paper-type: inproceedings
+    year: 2008
+    authors: Sami Al-Harbi, Abdulrahman Almuhareb, AbdulMohsen Al-Thubaity, Mohammad Khorsheed, Abdullah Al-Rajeh
+    title: Automatic Arabic text classification
+    doc-url: papers/Arabic-Classification.pdf
+    booktitle: Proceedings of JADT
+    booktitle-url: http://jadt2008.ens-lyon.fr/
+    venue: conference
+    img: "Arabic-Classification"
+    abstract: >
+      Automated document classification is an important text mining task especially with the rapid 
+      growth of the number of online documents present in Arabic language. Text classification 
+      aims to automatically assign the text to a predefined category based on linguistic features. 
+      Such a process has different useful applications including, but not restricted to, e-mail spam 
+      detection, web page content filtering, and automatic message routing. This paper presents 
+      the results of experiments on document classification achieved on seven different Arabic 
+      corpora using statistical methodology. The performance of two popular classification 
+      algorithms in classifying the aforementioned corpora has been evaluated.
+  -
+    layout: paper
+    paper-type: inproceedings
+    year: 2008
+    authors: AbdulMohsen Al-Thubaity, Abdulrahman Almuhareb, Sami Al-Harbi, Abdullah Al-Rajeh, Mohammad Khorsheed
+    title: "KACST Arabic text classification project: overview and preliminary results"
+    doc-url: papers/KACST-Classification.pdf
+    booktitle: Proceedings of Information Management in Modern Organizations
+    venue: conference
+    img: "KACST-Classification"
+    abstract: >
+      Electronically formatted Arabic free-texts can be found in abundance these days on the 
+      World Wide Web, often linked to commercial enterprises and/or government organizations. 
+      Vast tracts of knowledge and relations lie hidden within these texts, knowledge that can be 
+      exploited once the correct intelligent tools have been identified and applied. For example, 
+      text mining may help with text classification and categorization. Text classification aims to 
+      automatically assign text to a predefined category based on identifiable linguistic features. 
+      Such a process has different useful applications including, but not restricted to, E-Mail spam 
+      detection, web pages content filtering, and automatic message routing. In this paper an 
+      overview of King Abdulaziz City for Science and Technology (KACST) Arabic Text Classification 
+      Project will be illustrated along with some preliminary results. This project will contribute 
+      to the better understanding and elaboration of Arabic text classification techniques.
+  -
+    layout: paper
+    paper-type: inproceedings
+    year: 2007
+    authors: AbdulMalik Al-Salman, Yosef AlOhali, Mohammed AlKanhal, Abdullah AlRajih
+    title: An Arabic optical braille recognition system
+    doc-url: papers/Arabic-OBR.pdf
+    booktitle: Proceedings of ICTA
+    venue: conference
+    img: "Arabic-OBR"
+    abstract: >
+      Technology has shown great promise in providing access to textual information for visually 
+      impaired people. Optical Braille Recognition (OBR) allows people with visual impairments to 
+      read volumes of typewritten documents with the help of flatbed scanners and OBR software. 
+      This project looks at developing a system to recognize an image of embossed Arabic Braille 
+      and then convert it to text. It particularly aims to build fully functional Optical Arabic Braille 
+      Recognition system. It has two main tasks, first is to recognize printed Braille cells, and 
+      second is to convert them to regular text. Converting Braille to text is not simply a one to one 
+      mapping, because one cell may represent one symbol (alphabet letter, digit, or special 
+      character), two or more symbols, or part of a symbol. Moreover, multiple cells may represent 
+      a single symbol.

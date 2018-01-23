@@ -1,0 +1,12 @@
+---
+layout: default
+title: Abdullah Alrajeh | Papers
+---
+<div class="page-header">
+  <h3>Papers</h3>
+</div>
+<br/>
+
+{% for post in site.papers %}
+  {% include paper.html paper=post %}
+{% endfor %}
