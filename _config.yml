@@ -7,7 +7,7 @@ papers:
     year: 2018
     authors: Abdullah Alrajeh
     title: A Recipe for Arabic-English Neural Machine Translation
-    doc-url: https://arxiv.org/abs/1808.06116
+    doc-url: https://arxiv.org/pdf/1808.06116.pdf
     journal: Computing Research Repository
     journal-url: http://arxiv.org/corr
     volume: arXiv:1808.06116
@@ -33,8 +33,7 @@ papers:
         journal   = {Computing Research Repository},
         volume    = {arXiv:1808.06116},
         year      = {2018},
-        url       = {https://arxiv.org/abs/1808.06116},
-        note	    = {version 1}
+        url       = {https://arxiv.org/abs/1808.06116}
       }
   - 
     layout: paper
