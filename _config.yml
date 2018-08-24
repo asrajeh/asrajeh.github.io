@@ -1,6 +1,7 @@
 exclude: ['README.md']
 timezone: US/Eastern
 papers:
+  -
     layout: paper
     paper-type: article
     year: 2018
