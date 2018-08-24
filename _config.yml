@@ -27,7 +27,7 @@ papers:
       a small Arabic-English corpus is competitive to a traditional phrase-based
       system.
     bibtex: >
-      @Article{AlmahairiCHC16,
+      @Article{alrajeh:18:1,
         author    = {Abdullah Alrajeh},
         title     = {A Recipe for {A}rabic-{E}nglish Neural Machine Translation},
         journal   = {Computing Research Repository},
