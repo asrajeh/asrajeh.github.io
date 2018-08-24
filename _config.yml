@@ -1,7 +1,6 @@
 exclude: ['README.md']
 timezone: US/Eastern
 papers:
--
     layout: paper
     paper-type: article
     year: 2018
@@ -12,7 +11,7 @@ papers:
     journal-url: http://arxiv.org/corr
     volume: arXiv:1808.06116
     venue: journal
-    img: 1808.06116.jpg
+    img: 1808.06116
     abstract: >
       In this paper, we present a recipe for building a good Arabic-English
       neural machine translation. We compare neural systems with traditional 
