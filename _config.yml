@@ -1,6 +1,41 @@
 exclude: ['README.md']
 timezone: US/Eastern
 papers:
+-
+    layout: paper
+    paper-type: article
+    year: 2018
+    authors: Abdullah Alrajeh
+    title: A Recipe for Arabic-English Neural Machine Translation
+    doc-url: https://arxiv.org/abs/1808.06116
+    journal: Computing Research Repository
+    journal-url: http://arxiv.org/corr
+    volume: arXiv:1808.06116
+    venue: journal
+    img: 1808.06116.jpg
+    abstract: >
+      In this paper, we present a recipe for building a good Arabic-English
+      neural machine translation. We compare neural systems with traditional 
+      phrase-based systems using various parallel corpora including UN, ISI 
+      and Ummah. We also investigate the importance of special preprocessing 
+      of the Arabic script. The presented results are based on test sets from 
+      NIST MT 2005 and 2012. The best neural system produces a gain of +13 BLEU 
+      points compared to an equivalent simple phrase-based system in NIST MT12
+      test set. Unexpectedly, we find that tuning a model trained on the whole 
+      data using a small high quality corpus like Ummah gives a substantial 
+      improvement (+3 BLEU points). We also find that training a neural system with
+      a small Arabic-English corpus is competitive to a traditional phrase-based
+      system.
+    bibtex: >
+      @Article{AlmahairiCHC16,
+        author    = {Abdullah Alrajeh},
+        title     = {A Recipe for {A}rabic-{E}nglish Neural Machine Translation},
+        journal   = {Computing Research Repository},
+        volume    = {arXiv:1808.06116},
+        year      = {2018},
+        url       = {https://arxiv.org/abs/1808.06116},
+        note	    = {version 1}
+      }
   - 
     layout: paper
     paper-type: thesis 
