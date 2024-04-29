@@ -3,6 +3,42 @@ timezone: US/Eastern
 papers:
   -
     layout: paper
+    paper-type: inproceedings
+    year: 2018
+    authors: Alharbi, Sadeen and Alowisheq, Areeb and Tüske, Zoltán and Darwish, Kareem and Alrajeh, Abdullah and Alrowithi, Abdulmajeed and Tamran, Aljawharah Bin and Ibrahim, Asma and Aloraini, Raghad and Alnajim, Raneem and Alkahtani, Ranya and Almuasaad, Renad and Alrasheed, Sara and Alsubaie, Shaykhah and Alonaizan, Yaser
+    title: SADA: Saudi Audio Dataset for Arabic
+    booktitle: ICASSP 2024
+    booktitle-url: https://ieeexplore.ieee.org/xpl/conhome/10445798/proceeding
+    venue: conference
+    abstract: >
+      Arabic is among the most challenging languages in the world. Unfortunately, 
+      the scarcity of Arabic datasets makes studies in Arabic speech technology demanding. 
+      This paper introduces SADA, the Saudi Audio Dataset for Arabic, with 668 hours of 
+      high-quality audio suitable for supervised training. The audio recordings were sourced 
+      from 57 television shows provided by the Saudi Broadcasting Authority. The audio covers 
+      both read and spontaneous speaking styles in various genres. The National Center for 
+      Artificial Intelligence in Saudi Arabia transcribed and prepared the data for training 
+      and processing. The recordings are in Arabic. Most are in Saudi dialects, while other 
+      Arabic dialects include Yemeni, Egyptian, and Levantine. The dataset is split into training, 
+      validation, and testing sets to enhance its usage. The validation and testing sets contain 
+      10 hours of audio segments each. Besides giving a detailed description of the dataset, 
+      wide range of speech recognition experiments using standard tools are also presented.
+    bibtex: >
+      @INPROCEEDINGS{10446243,
+        author={Alharbi, Sadeen and Alowisheq, Areeb and Tüske, Zoltán and Darwish, Kareem and Alrajeh, Abdullah and Alrowithi, Abdulmajeed and Tamran, Aljawharah Bin and Ibrahim, Asma and Aloraini, Raghad and Alnajim, Raneem and Alkahtani, Ranya and Almuasaad, Renad and Alrasheed, Sara and Alsubaie, Shaykhah and Alonaizan, Yaser},
+        booktitle={ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+        title={SADA: Saudi Audio Dataset for Arabic}, 
+        year={2024},
+        volume={},
+        number={},
+        pages={10286-10290},
+        keywords={Training;Vocabulary;TV;Speech recognition;Speech processing;Standards;Testing;Arabic dataset;dialectal Arabic data},
+        doi={10.1109/ICASSP48485.2024.10446243}
+      }
+
+
+  -
+    layout: paper
     paper-type: article
     year: 2018
     authors: Abdullah Alrajeh
