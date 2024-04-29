@@ -4,12 +4,13 @@ papers:
   -
     layout: paper
     paper-type: inproceedings
-    year: 2018
+    year: 2024
     authors: Alharbi, Sadeen and Alowisheq, Areeb and Tüske, Zoltán and Darwish, Kareem and Alrajeh, Abdullah and Alrowithi, Abdulmajeed and Tamran, Aljawharah Bin and Ibrahim, Asma and Aloraini, Raghad and Alnajim, Raneem and Alkahtani, Ranya and Almuasaad, Renad and Alrasheed, Sara and Alsubaie, Shaykhah and Alonaizan, Yaser
     title: SADA\: Saudi Audio Dataset for Arabic
     booktitle: ICASSP 2024
     booktitle-url: https://ieeexplore.ieee.org/xpl/conhome/10445798/proceeding
     venue: conference
+    img: "Arabic-OBR"
     abstract: >
       Arabic is among the most challenging languages in the world. Unfortunately, 
       the scarcity of Arabic datasets makes studies in Arabic speech technology demanding. 
