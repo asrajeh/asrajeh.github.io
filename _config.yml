@@ -10,6 +10,7 @@ papers:
     booktitle: ICASSP 2024
     booktitle-url: https://ieeexplore.ieee.org/xpl/conhome/10445798/proceeding
     venue: conference
+    img: 1808.06116
     abstract: >
       Arabic is among the most challenging languages in the world. Unfortunately, 
       the scarcity of Arabic datasets makes studies in Arabic speech technology demanding. 
@@ -35,8 +36,6 @@ papers:
         keywords={Training;Vocabulary;TV;Speech recognition;Speech processing;Standards;Testing;Arabic dataset;dialectal Arabic data},
         doi={10.1109/ICASSP48485.2024.10446243}
       }
-
-
   -
     layout: paper
     paper-type: article
